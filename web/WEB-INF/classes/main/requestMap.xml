@@ -1,0 +1,6 @@
+<requestMap>
+    <handler urlPattern="/hello.do" class="main.handler.HelloWorldHandler" method="helloworld">
+    </handler>
+
+    <handler urlPattern="/index.do" class="main.handler.HelloWorldHandler" redirect="true"></handler>
+</requestMap>
